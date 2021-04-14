@@ -1,0 +1,46 @@
+ 
+ 
+ @import './variable.scss';
+ 
+ 
+ 
+
+ $main-color: #FF7766;
+ $custom-color:#EEE;
+
+ @font-face {
+    font-family:"cairoFont";
+    src: url(../fonts/Cairo-Regular.ttf);
+ }
+  body {
+   font-family:"cairoFont", 'Cambria,Cochin,Georgia,Times New Roman,Serif'!important;
+  }
+  .container-fluid{
+     padding-left: 0px !important;
+     padding-right: 0px !important;
+     overflow-x: hidden;
+  }
+
+    .top-menu {
+       .navbar{
+          font-weight: bold;
+         background-color: #fff !important;
+         padding:0 100px !important;
+              .navbar-nav{
+                     li > a {
+                         transition-property:background-color;
+                         transition-duration: 0.5s; 
+
+                        &:hover{
+                          color: $main-color !important;
+                          background-color: $custom-color;
+                          border-bottom: 1px solid $main-color;
+                         }
+                    }
+                  .active a {
+                     color: $main-color !important;
+                     border-bottom: 1px solid $main-color;
+                  }
+                }
+          }
+     }
