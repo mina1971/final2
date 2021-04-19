@@ -5,12 +5,15 @@ import 'popper.js/dist/popper.min';
 import '@fortawesome/fontawesome-free/js/all.min';
 import '../sass/style.scss';
 
-function render_arrows() {
-    var vidtag;
-    vidtag = document.getElementById('arrows');
-    vidtag.src = mov;
-  }
+//function render_arrows() {
+ //   var vidtag;
+ //   vidtag = document.getElementById('arrows');
+ //   vidtag.src = mov;
+ // };
   
-  render_arrows();
+ // render_arrows();
 
+ 
+ 
 
+  

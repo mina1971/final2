@@ -4,8 +4,8 @@
  @import './book2.scss';
  
  //*{
-    // padding: 0 !important;
-   
+   //  padding: 0 !important;
+  // background-color: $card-text-color;
  //}
 
  @font-face {
@@ -15,38 +15,74 @@
   body {
    font-family:"cairoFont", 'Cambria,Cochin,Georgia,Times New Roman,Serif'!important;
   }
+   body.header{
+    background-image: url(../images/lib/sh44.jpg);
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  }
+  .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    
+  }
+
 .who-are-we {
+  .button{
+    color: crimson;
+    margin-top: 50px;
+    padding: 5px 20px;
+    background-color: blue;
+    border-radius: 10px;
+  }
   .custom-paragraph{
-    background-color: $card-text-color;
+    background-color: #16aeca;
     border: 2px solid black;
-    margin: 150px;
+    margin: 50px;
+    border-radius: 20px;
+    padding: 50px;
+    font-size: 36px;
+    
+
+    mark{
+      color: rgb(206, 13, 29);
+      background-color: #16aeca ;
+    }
 
   }
-  background-color: cadetblue;
+  background-image: url(../images/lib/sh4.jpg);
 }
- .contaianer{
-     .row{
-         .my-adress{
-           color: brown;
-           text-align: center;
-           margin: 10px auto;
-         }
-     }
+
+ section.new-box {
+   background-color: aqua;
+   h2{
+     color: crimson ;
+    font-size: 36px;
+    line-height: 8rem;
+    background-color: $card-text-color;
+
+   }
  }
 
+ section.new-book{
+ background-color: rgb(202, 220, 221); 
 
-.header{
-    .who-iam{
-        background-color: $custom-color;
-        color: brown;
-        text-align: center;
-        border: 2px solid ;
-        padding: 30px ;
-
-
-    }
+ img.one{
+  border: 3px solid black;
+}
+img.tow{
+  border: 3px solid black;
 }
 
+
+  }
+  
+   
+  
 
 
  section.contacts .form form button {

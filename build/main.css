@@ -10436,27 +10436,62 @@ body {
   font-family: "cairoFont", "Cambria,Cochin,Georgia,Times New Roman,Serif" !important;
 }
 
+body.header {
+  background-image: url(../images/sh44.jpg);
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 3;
+}
+
 .who-are-we {
-  background-color: cadetblue;
+  background-image: url(../images/sh4.jpg);
+}
+.who-are-we .button {
+  color: crimson;
+  margin-top: 50px;
+  padding: 5px 20px;
+  background-color: blue;
+  border-radius: 10px;
 }
 .who-are-we .custom-paragraph {
-  background-color: #eba5a5;
+  background-color: #16aeca;
   border: 2px solid black;
-  margin: 150px;
+  margin: 50px;
+  border-radius: 20px;
+  padding: 50px;
+  font-size: 36px;
+}
+.who-are-we .custom-paragraph mark {
+  color: #ce0d1d;
+  background-color: #16aeca;
 }
 
-.contaianer .row .my-adress {
-  color: brown;
-  text-align: center;
-  margin: 10px auto;
+section.new-box {
+  background-color: aqua;
+}
+section.new-box h2 {
+  color: crimson;
+  font-size: 36px;
+  line-height: 8rem;
+  background-color: #eba5a5;
 }
 
-.header .who-iam {
-  background-color: #EEE;
-  color: brown;
-  text-align: center;
-  border: 2px solid;
-  padding: 30px;
+section.new-book {
+  background-color: #cadcdd;
+}
+section.new-book img.one {
+  border: 3px solid black;
+}
+section.new-book img.tow {
+  border: 3px solid black;
 }
 
 section.contacts .form form button {
