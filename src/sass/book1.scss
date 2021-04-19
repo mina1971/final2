@@ -1,1 +1,96 @@
 
+
+    .header1{
+        background-image: url(../images/lib/sh6.jpg);
+        background-position: center;
+        background-size: cover;
+
+    }
+    .header1{
+        .overlay{
+            background: rgba($color:blue, $alpha: 0.5);
+            height: 100vh;
+        }
+    }
+    section.features{
+        background-color: $custom-color;
+        padding: 25px 0;
+        
+    }
+
+    section.features{
+        .title{
+            
+            position: relative;
+            margin-bottom: 20px;
+            h3{
+                font-size: 36px;
+                color: #727;
+                line-height: 120px;
+            }
+           
+        }
+
+       
+    }
+    section.features{
+        .title::after{
+           position: absolute;
+           content: "";
+           bottom: 0;
+           width: 150px;
+           height:2px ;
+           background-color: #727;
+           left: 50%;
+           transform: translateX(-50%);
+        }
+
+    }
+    section.features{
+        .feature{
+            padding: 70px 0;
+            border: 3px solid #eeeeee;
+        }
+    }
+    section.features{
+        .media{
+
+            .media-body{
+
+                margin-top: 50px;
+                h5{
+                    font-size: 36px;
+                    font-weight: bold;
+                    color:#727 ;
+                    border-right: #727 2px solid;
+                    padding: 0 20px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+    section.features{
+        .media{
+            .media-body{
+                p{
+                    font-size:18px ;
+                    line-height:32px ;
+                    color:#555555;
+                    
+                }
+            }
+        }
+    }
+    section.features{
+        .media{
+            
+                img{
+                    margin:0 60px;
+                    
+                }
+            
+        }
+    }
+
+
+

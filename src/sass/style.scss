@@ -15,7 +15,15 @@
   body {
    font-family:"cairoFont", 'Cambria,Cochin,Georgia,Times New Roman,Serif'!important;
   }
+.who-are-we {
+  .custom-paragraph{
+    background-color: $card-text-color;
+    border: 2px solid black;
+    margin: 150px;
 
+  }
+  background-color: cadetblue;
+}
  .contaianer{
      .row{
          .my-adress{

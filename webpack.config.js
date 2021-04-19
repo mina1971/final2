@@ -62,6 +62,13 @@ module.exports = {
               exposes: ["$", "jQuery"],
             },
           },
+
+          {
+            test: /\.(mov|mp4)$/,
+            use: [
+              'file-loader'
+            ]
+          }
         ],
       },
 

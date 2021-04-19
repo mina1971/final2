@@ -1,1 +1,13 @@
 
+.header2 {
+  
+  background-image: url(../images/lib/sh6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.header2{
+    .overlay{
+        background: rgba($color:blue, $alpha: 0.5);
+        height: 100vh;
+    }
+}
