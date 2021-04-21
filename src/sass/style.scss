@@ -50,6 +50,16 @@
     border-radius: 20px;
     padding: 50px !important;
     font-size: 36px;
+    transition: all 3s ease-in-out;
+    opacity: 1;
+   
+    :hover{
+      opacity: 0.5;
+      transform: scale(1.4);
+      border-radius: 50%;
+      
+    }
+   
     
     
 
@@ -57,9 +67,10 @@
       color: rgb(206, 13, 29);
       background-color: #16aeca ;
     }
-
+    
   }
   background-image: url(../images/lib/sh4.jpg);
+
 }
 
  section.new-box {
