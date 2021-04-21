@@ -10370,7 +10370,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 .header1 .overlay span p {
   color: #000;
-  z-index: 5;
+  z-index: 1;
   font-weight: bold;
   font-size: 36px;
   display: inline;
@@ -10528,7 +10528,7 @@ body {
 }
 
 body .header {
-  background-image: url(../images/sh44.jpg);
+  background-image: url(../images/sh1.jpg);
   position: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -10539,7 +10539,7 @@ body .header {
   top: 0;
   width: 100%;
   height: 50px;
-  z-index: 3;
+  z-index: 6;
 }
 
 .who-are-we {
@@ -10552,7 +10552,7 @@ body .header {
   background-color: blue;
   border-radius: 10px;
 }
-.who-are-we .custom-paragraph {
+.who-are-we .paragraph {
   background-color: #16aeca;
   border: 2px solid black;
   margin: 50px;
@@ -10560,7 +10560,7 @@ body .header {
   padding: 50px !important;
   font-size: 36px;
 }
-.who-are-we .custom-paragraph mark {
+.who-are-we .paragraph mark {
   color: #ce0d1d;
   background-color: #16aeca;
 }
@@ -10631,6 +10631,14 @@ form.action {
   border: blue solid 2px !important;
   border-radius: 10px;
   margin-left: 15px;
+  height: 250px;
+  width: 85%;
+}
+
+form.action input {
+  border: 1px solid blue;
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
 footer .top-footer h3 {

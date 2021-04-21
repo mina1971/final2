@@ -13,15 +13,5 @@ import '../sass/style.scss';
   
  // render_arrows();
 
- 
- //$(function() {
-  // $('#zar').click(function() {
-   //    $(this).hide('#entercut').hide();
- //       $(this).find('.caption2').slideDown(250);
-   // },
-  //  function(){
-   //     $(this).find('.caption2').slideUp(250);
-   //     $(this).find('.project-category').show();    
-   // }
-  //  );
+  
   
