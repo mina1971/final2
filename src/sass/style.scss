@@ -13,92 +13,101 @@
  }
   body {
    font-family:"cairoFont", 'Cambria,Cochin,Georgia,Times New Roman,Serif'!important;
-  }
-   body{
-    .header{
-      background-image: url(../images/lib/sh1.jpg) ;
-      position: fixed;
-      background-size: cover;
-      background-repeat: no-repeat;
-      
-     
-     
-    }
    }
   .navbar{
     position: fixed;
     top: 0;
     width: 100%;
-    height: 50px;
-    z-index: 6;
+    height: 70px;
+    z-index: 3;
+    .navbar-brand{
+      padding-top: 10px;
+    }
+    ul{
+      float: left;
+     }
+     li{
+      float: right;
+      display: inline;
+      padding: 0  20px 0 20px;
+      margin: 10 auto;
+    }
+    a{
+      color: rgb(15, 9, 9);
+      text-decoration: none;
+      font-size: 16px;
+    }
    
-    
   }
-
-.who-are-we {
-  .button{
-    color: crimson;
-    margin-top: 50px;
-    padding: 5px 20px;
-    background-color: blue;
+  
+    .navbar-brand{
+      img{
+      padding-bottom: 20px;
+    }
+    }
+     
+  .who-are-we {
+    .button{
+     color: crimson;
+     margin-top: 50px;
+     padding: 5px 20px;
+     background-color: blue;
     border-radius: 10px;
-  }
-  .paragraph{
-    background-color: #16aeca;
-    border: 2px solid black;
-    margin: 50px;
-    border-radius: 20px;
-    padding: 50px !important;
-    font-size: 36px;
-    transition: all 3s ease-in-out;
-    opacity: 1;
+   }
+   .paragraph{
+     background-color: rgba($color: rgb(189, 189, 240), $alpha: .7);
+     border: 2px solid black;
+     margin: 50px;
+     line-height: 4rem;
+     border-radius: 20px;
+     padding: 50px !important;
+     font-size: 36px;
+     transition: all 3s ease-in-out;
+     opacity: 1;
    
-    :hover{
+     :hover{
       opacity: 0.5;
       transform: scale(1.4);
       border-radius: 50%;
       
     }
-   
-    
-    
-
     mark{
       color: rgb(206, 13, 29);
-      background-color: #16aeca ;
+     background-color:#bbd5eb ;
+       
     }
-    
-  }
-  background-image: url(../images/lib/sh4.jpg);
+  
+    }
+    background-image: url(../images/lib/sh4.jpg);
 
-}
+   }
 
- section.new-box {
-   background-color: aqua;
-   h2{
+   section.new-box {
+    background-color: aqua;
+    h2{
      color: rgb(40, 20, 220) ;
     font-size: 36px;
     line-height: 8rem;
     background-color: $card-text-color;
 
    }
- }
+  }
 
- section.new-book{
- background-color: rgb(105, 154, 233); 
+   section.new-book{
+   background-color: rgb(105, 154, 233); 
 
- img.one{
-  border: 3px solid black;
-}
-img.tow{
-  border: 3px solid black;
-}
+   img.one{
+   border: 3px dotted black;
+   }
+   img.tow{
+   border: 3px dotted black;
+  }
 
 
   }
 
   section.contacts{
-    
+    padding-top: 20px !important;
     h1{
       text-align: center;
      color: $main-button-color;
@@ -127,25 +136,22 @@ section.contacts{
   }
 }
 
-section.contacts{
-  background-color: #16aeca;
-  top: 0;
-  .map{
-    iframe{
+    section.contacts{
+     background-color: #16aeca;
+     top: 0;
+     .map{
+      iframe{
       height: 270px;
       width: 85%;
       border: blue solid 2px !important;
       margin-right: 35px;
       margin-top: 50px;
       border-radius: 10px;
-      
-
+    
     }
     
-
   }
 }
- 
  
   footer {
     .top-footer{
@@ -189,7 +195,7 @@ section.contacts{
   footer{
     .top-footer{
       p{
-        font-size: 15px;
+    font-size: 15px;
     line-height: 22px;
     color: #141111;
     margin-bottom: 50px; 
@@ -219,7 +225,7 @@ section.contacts{
     }
   }
   
-  /* ضبط الحاشية الخاصة بأيقونات التواصل الإجتماعي */
+  
   footer {
     .top-footer{
       ul.social{
@@ -247,7 +253,7 @@ section.contacts{
   } 
 
 
-  /* التنسيقات الخاصة بعناصر القائمة */
+  
   footer{
     .top-footer{
       ul.contact-us{
@@ -259,7 +265,7 @@ section.contacts{
       }
     }
   } 
-  /* ضبط الهامش الخاص بالعنصر الأخير في القائمة */
+ 
   footer{
     .top-footer{
       ul.contact-us{
@@ -269,7 +275,7 @@ section.contacts{
       }
     }
   } 
-  /* التنسيقات المطبقة على الأيقونات */
+  
   footer {
     .top-footer{
       ul.contact-us{
@@ -288,7 +294,7 @@ section.contacts{
       }
     }
   }
-  /* ضبط لون الخلفية الخاص بأسفل الصفحة */
+  
   footer{
     .copyright{
       background-color: #111111;

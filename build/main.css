@@ -10364,8 +10364,19 @@ a.text-dark:focus, a.text-dark:hover {
   height: 100vh;
 }
 
-.header1 .overlay img {
-  margin-top: 100px;
+.header1 .overlay img.stand {
+  border: red dotted 3px;
+  margin-top: 120px;
+}
+.header1 .overlay img.trans {
+  padding-top: 150px;
+  transition: all 3s ease-in-out;
+  opacity: 1;
+}
+.header1 .overlay img.trans :hover {
+  opacity: 0.5;
+  transform: scale(1.4);
+  border-radius: 50%;
 }
 
 .header1 .overlay span p {
@@ -10511,12 +10522,26 @@ section.prices .plan .popular button:hover {
 }
 
 .header2 .overlay {
-  background: rgba(0, 0, 255, 0.5);
+  background: rgba(0, 0, 255, 0.4);
   height: 100vh;
 }
 
 .header2 .overlay img {
   margin-top: 100px;
+}
+
+.header2 .overlay img.stand2 {
+  border: red dotted 3px;
+}
+.header2 .overlay img.trans2 {
+  padding-top: 150px;
+  transition: all 3s ease-in-out;
+  opacity: 1;
+}
+.header2 .overlay img.trans2 :hover {
+  opacity: 0.5;
+  transform: scale(1.4);
+  border-radius: 50%;
 }
 
 @font-face {
@@ -10527,19 +10552,33 @@ body {
   font-family: "cairoFont", "Cambria,Cochin,Georgia,Times New Roman,Serif" !important;
 }
 
-body .header {
-  background-image: url(../images/sh1.jpg);
-  position: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 50px;
-  z-index: 6;
+  height: 70px;
+  z-index: 3;
+}
+.navbar .navbar-brand {
+  padding-top: 10px;
+}
+.navbar ul {
+  float: left;
+}
+.navbar li {
+  float: right;
+  display: inline;
+  padding: 0 20px 0 20px;
+  margin: 10 auto;
+}
+.navbar a {
+  color: #0f0909;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-brand img {
+  padding-bottom: 20px;
 }
 
 .who-are-we {
@@ -10553,9 +10592,10 @@ body .header {
   border-radius: 10px;
 }
 .who-are-we .paragraph {
-  background-color: #16aeca;
+  background-color: rgba(189, 189, 240, 0.7);
   border: 2px solid black;
   margin: 50px;
+  line-height: 4rem;
   border-radius: 20px;
   padding: 50px !important;
   font-size: 36px;
@@ -10569,7 +10609,7 @@ body .header {
 }
 .who-are-we .paragraph mark {
   color: #ce0d1d;
-  background-color: #16aeca;
+  background-color: #bbd5eb;
 }
 
 section.new-box {
@@ -10579,19 +10619,22 @@ section.new-box h2 {
   color: #2814dc;
   font-size: 36px;
   line-height: 8rem;
-  background-color: #eba5a5;
+  background-color: #edeec7;
 }
 
 section.new-book {
   background-color: #699ae9;
 }
 section.new-book img.one {
-  border: 3px solid black;
+  border: 3px dotted black;
 }
 section.new-book img.tow {
-  border: 3px solid black;
+  border: 3px dotted black;
 }
 
+section.contacts {
+  padding-top: 20px !important;
+}
 section.contacts h1 {
   text-align: center;
   color: blue;
@@ -10675,7 +10718,6 @@ footer .top-footer ul.social li a i {
   transition: all 0.5s ease;
 }
 
-/* ضبط الحاشية الخاصة بأيقونات التواصل الإجتماعي */
 footer .top-footer ul.social li {
   margin-right: 5px;
 }
@@ -10685,19 +10727,16 @@ footer .top-footer ul.social li a:hover i {
   background-color: #d3cdee;
 }
 
-/* التنسيقات الخاصة بعناصر القائمة */
 footer .top-footer ul.contact-us li {
   margin-bottom: 35px;
   font-size: 18px;
   color: #0c0b0b;
 }
 
-/* ضبط الهامش الخاص بالعنصر الأخير في القائمة */
 footer .top-footer ul.contact-us li:last-of-type {
   margin-bottom: 0;
 }
 
-/* التنسيقات المطبقة على الأيقونات */
 footer .top-footer ul.contact-us li i {
   width: 35px;
   height: 35px;
@@ -10708,7 +10747,6 @@ footer .top-footer ul.contact-us li i {
   margin-left: 20px;
 }
 
-/* ضبط لون الخلفية الخاص بأسفل الصفحة */
 footer .copyright {
   background-color: #111111;
 }

@@ -15,9 +15,21 @@
 
     .header1{
         .overlay{
-            img{
-                margin-top: 100px;
-              
+         
+            img.stand{
+                border: red dotted 3px;
+               margin-top: 120px;
+            }
+            img.trans{
+                padding-top: 150px;
+                transition: all 3s ease-in-out;
+                opacity: 1;
+               
+              :hover{
+                opacity: 0.5;
+               transform: scale(1.4);
+                border-radius: 50%;
+              }
             }
         }
     }

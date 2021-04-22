@@ -7,7 +7,7 @@
 }
 .header2{
     .overlay{
-        background: rgba($color:blue, $alpha: 0.5);
+        background: rgba($color:blue, $alpha: 0.4);
         height: 100vh;
     }
 }
@@ -16,6 +16,25 @@
       img{
           margin-top: 100px;
         
+      }
+  }
+}
+.header2{
+  .overlay{
+  
+      img.stand2{
+       
+          border: red dotted 3px;
+     }
+      img.trans2{
+          padding-top: 150px;
+          transition: all 3s ease-in-out;
+          opacity: 1;
+        :hover{
+          opacity: 0.5;
+         transform: scale(1.4);
+          border-radius: 50%;
+        }
       }
   }
 }
