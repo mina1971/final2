@@ -10371,12 +10371,11 @@ a.text-dark:focus, a.text-dark:hover {
 .header1 .overlay img.trans {
   padding-top: 150px;
   transition: all 3s ease-in-out;
-  opacity: 1;
+  opacity: 0.5;
 }
 .header1 .overlay img.trans :hover {
-  opacity: 0.5;
+  opacity: 1;
   transform: scale(1.4);
-  border-radius: 50%;
 }
 
 .header1 .overlay span p {
@@ -10536,12 +10535,11 @@ section.prices .plan .popular button:hover {
 .header2 .overlay img.trans2 {
   padding-top: 150px;
   transition: all 3s ease-in-out;
-  opacity: 1;
+  opacity: 0.5;
 }
 .header2 .overlay img.trans2 :hover {
-  opacity: 0.5;
+  opacity: 1;
   transform: scale(1.4);
-  border-radius: 50%;
 }
 
 @font-face {
@@ -10592,7 +10590,7 @@ body {
   border-radius: 10px;
 }
 .who-are-we .paragraph {
-  background-color: rgba(189, 189, 240, 0.7);
+  background-color: rgba(189, 189, 240, 0.5);
   border: 2px solid black;
   margin: 50px;
   line-height: 4rem;
@@ -10609,7 +10607,7 @@ body {
 }
 .who-are-we .paragraph mark {
   color: #ce0d1d;
-  background-color: #bbd5eb;
+  background-color: #bdbdf0;
 }
 
 section.new-box {

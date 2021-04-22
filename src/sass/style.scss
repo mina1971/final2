@@ -13,6 +13,7 @@
  }
   body {
    font-family:"cairoFont", 'Cambria,Cochin,Georgia,Times New Roman,Serif'!important;
+  
    }
   .navbar{
     position: fixed;
@@ -55,7 +56,7 @@
     border-radius: 10px;
    }
    .paragraph{
-     background-color: rgba($color: rgb(189, 189, 240), $alpha: .7);
+     background-color:  rgb(189, 189, 240, .5);
      border: 2px solid black;
      margin: 50px;
      line-height: 4rem;
@@ -73,7 +74,7 @@
     }
     mark{
       color: rgb(206, 13, 29);
-     background-color:#bbd5eb ;
+     background-color: rgb(189, 189, 240,)
        
     }
   

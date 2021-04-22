@@ -29,11 +29,11 @@
       img.trans2{
           padding-top: 150px;
           transition: all 3s ease-in-out;
-          opacity: 1;
-        :hover{
           opacity: 0.5;
+        :hover{
+          opacity: 1;
          transform: scale(1.4);
-          border-radius: 50%;
+       
         }
       }
   }
