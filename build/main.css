@@ -10366,24 +10366,22 @@ a.text-dark:focus, a.text-dark:hover {
 
 .header1 .overlay img.stand {
   border: red dotted 3px;
-  margin-top: 120px;
+  margin-top: 140px;
+}
+@media (max-width: 991px) {
+  .header1 .overlay img.stand {
+    display: none;
+    padding: 0;
+  }
 }
 .header1 .overlay img.trans {
-  padding-top: 150px;
+  margin-top: 160px;
   transition: all 3s ease-in-out;
   opacity: 0.5;
 }
-.header1 .overlay img.trans :hover {
+.header1 .overlay img.trans:hover {
   opacity: 1;
   transform: scale(1.4);
-}
-
-.header1 .overlay span p {
-  color: #000;
-  z-index: 1;
-  font-weight: bold;
-  font-size: 36px;
-  display: inline;
 }
 
 section.features {
@@ -10525,21 +10523,30 @@ section.prices .plan .popular button:hover {
   height: 100vh;
 }
 
-.header2 .overlay img {
-  margin-top: 100px;
-}
-
 .header2 .overlay img.stand2 {
+  margin-top: 120px;
   border: red dotted 3px;
 }
+@media (max-width: 991px) {
+  .header2 .overlay img.stand2 {
+    display: none;
+    padding: 0;
+  }
+}
 .header2 .overlay img.trans2 {
-  padding-top: 150px;
+  margin-top: 160px;
   transition: all 3s ease-in-out;
   opacity: 0.5;
 }
-.header2 .overlay img.trans2 :hover {
+.header2 .overlay img.trans2:hover {
   opacity: 1;
   transform: scale(1.4);
+}
+@media (max-width: 991px) {
+  .header2 .overlay img.trans2:hover {
+    opacity: 1;
+    transform: scale(1.4);
+  }
 }
 
 @font-face {
@@ -10556,6 +10563,7 @@ body {
   width: 100%;
   height: 70px;
   z-index: 3;
+  background-color: #16aeca !important;
 }
 .navbar .navbar-brand {
   padding-top: 10px;
@@ -10573,6 +10581,11 @@ body {
   color: #0f0909;
   text-decoration: none;
   font-size: 16px;
+}
+@media (max-width: 991px) {
+  .navbar a {
+    color: #7d7d85;
+  }
 }
 
 .navbar-brand img {
@@ -10618,16 +10631,6 @@ section.new-box h2 {
   font-size: 36px;
   line-height: 8rem;
   background-color: #edeec7;
-}
-
-section.new-book {
-  background-color: #699ae9;
-}
-section.new-book img.one {
-  border: 3px dotted black;
-}
-section.new-book img.tow {
-  border: 3px dotted black;
 }
 
 section.contacts {
@@ -10683,6 +10686,11 @@ form.action {
   width: 85%;
 }
 
+@media (max-width: 991px) {
+  form.action {
+    margin-right: 40px;
+  }
+}
 form.action input {
   border: 1px solid blue;
   margin-right: 20px;

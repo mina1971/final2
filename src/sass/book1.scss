@@ -17,37 +17,30 @@
         .overlay{
          
             img.stand{
-                border: red dotted 3px;
-               margin-top: 120px;
+               border: red dotted 3px;
+               margin-top: 140px;
+               @media (max-width :991px) {
+                display: none;
+                padding: 0;
+
+            }
             }
             img.trans{
-                padding-top: 150px;
+                margin-top: 160px;
                 transition: all 3s ease-in-out;
                 opacity:.5;
               
-              :hover{
+              &:hover{
              opacity: 1;
                transform: scale(1.4);
             
               }
+             
             }
         }
     }
 
-    .header1{
-        .overlay{
-            span{
-                p{
-                    color: #000;
-                  z-index: 1;
-                  font-weight: bold;
-                  font-size: 36px;
-                  display: inline;
-                }
-            }
-            
-        }
-    }
+    
     section.features{
         background-color: $custom-color;
         padding: 25px 0;

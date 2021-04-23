@@ -1,40 +1,50 @@
 
-.header2 {
+ .header2 {
   
   background-image: url(../images/lib/sh6.jpg);
   background-position: center;
   background-size: cover;
-}
-.header2{
-    .overlay{
-        background: rgba($color:blue, $alpha: 0.4);
-        height: 100vh;
-    }
-}
-.header2{
-  .overlay{
-      img{
-          margin-top: 100px;
-        
-      }
   }
-}
-.header2{
-  .overlay{
+    .header2{
+    .overlay{
+      background: rgba($color:blue, $alpha: 0.4);
+      height: 100vh;
+   }
+ }
+
+   .header2{
+    .overlay{
   
       img.stand2{
-       
+          margin-top: 120px;
           border: red dotted 3px;
+
+          @media (max-width :991px){
+            display: none;
+            padding: 0;
+
+          }
      }
       img.trans2{
-          padding-top: 150px;
+          margin-top: 160px;
           transition: all 3s ease-in-out;
           opacity: 0.5;
-        :hover{
-          opacity: 1;
-         transform: scale(1.4);
+
+          &:hover{
+            opacity: 1;
+           transform: scale(1.4);
+
+           @media (max-width :991px){
+            
+              opacity: 1;
+             transform: scale(1.4);
+           }
+        }
        
         }
-      }
-  }
-}
+   }
+ }
+
+ @media (max-width :991px){
+
+ }
