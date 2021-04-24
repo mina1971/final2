@@ -10601,7 +10601,7 @@ body {
   border-radius: 10px;
 }
 .who-are-we .paragraph {
-  background-color: rgba(189, 189, 240, 0.5);
+  background-color: rgba(139, 189, 230, 0.5);
   border: 2px solid black;
   margin: 50px;
   line-height: 4rem;
@@ -10610,11 +10610,20 @@ body {
   font-size: 36px;
   transition: all 3s ease-in-out;
   opacity: 1;
+  color: #111111;
 }
 .who-are-we .paragraph :hover {
   opacity: 0.5;
   transform: scale(1.4);
   border-radius: 50%;
+}
+@media (max-width: 991px) {
+  .who-are-we .paragraph {
+    line-height: 2rem;
+    padding: 20px 10px;
+    margin: 10px;
+    font-size: 20px;
+  }
 }
 .who-are-we .paragraph span {
   color: #ce0d1d;

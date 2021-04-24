@@ -58,7 +58,7 @@
         border-radius: 10px;
      }
       .paragraph{
-       background-color:  rgb(189, 189, 240, .5);
+       background-color:  rgba(139, 189, 230, 0.5);
        border: 2px solid black;
        margin: 50px;
        line-height: 4rem;
@@ -67,12 +67,20 @@
        font-size: 36px;
        transition: all 3s ease-in-out;
        opacity: 1;
+       color: #111111;
       
        :hover{
          opacity: 0.5;
          transform: scale(1.4);
          border-radius: 50%;
     
+       }
+       @media (max-width :991px){
+         line-height: 2rem;
+         padding: 20px 10px;
+         margin: 10px;
+         font-size: 20px;
+
        }
        span{
          color: rgb(206, 13, 29);
@@ -108,6 +116,7 @@
       margin-bottom: 20px;
       margin-top: 20px;
       padding: 10px;
+
     }
     .tow{
       border: 3px dotted black;
@@ -115,9 +124,8 @@
       margin-top: 20px;
       padding: 10px;
     }
-     
-   }
    
+  }
    section.contacts{
     padding-top: 20px !important;
      h1{
