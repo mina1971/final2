@@ -27,7 +27,7 @@
             }
             img.trans{
                 margin-top: 160px;
-                transition: all 3s ease-in-out;
+                transition: all 2s ease-in-out;
                 opacity:.5;
               
               &:hover{
@@ -40,7 +40,6 @@
         }
     }
 
-    
     section.features{
         background-color: $custom-color;
         padding: 25px 0;
@@ -60,7 +59,6 @@
            
         }
 
-       
     }
     section.features{
         .title::after{
@@ -216,8 +214,6 @@
         }
     } 
 
-
-    
     section.prices {
         .plan{
             .popular{
@@ -227,8 +223,6 @@
         }
     }
 
-
-    
     section.prices {
         .plan {
             .popular{

@@ -2,10 +2,7 @@
  @import './variable.scss';
  @import './book1.scss';
  @import './book2.scss';
- //*{
-  //  padding: 0 !important;
-   
- //}
+ 
 
  @font-face {
     font-family:"cairoFont";
@@ -24,120 +21,131 @@
        background-color: #16aeca !important;
       .navbar-brand{
        padding-top: 10px;
-    }
-    ul{
-      float: left;
+       }
+       .navbar-brand{
+        img{
+       padding-bottom: 20px;
+      }
+      }
+        ul{
+        float: left;
+      }
+       li{
+        float: right;
+        display: inline;
+        padding: 0  20px 0 20px;
+        margin: 10 auto;
      }
-     li{
-      float: right;
-      display: inline;
-      padding: 0  20px 0 20px;
-      margin: 10 auto;
-    }
-    a{
-      color: rgb(15, 9, 9);
-      text-decoration: none;
-      font-size: 16px;
+       a{
+         color: rgb(15, 9, 9);
+         text-decoration: none;
+        font-size: 16px;
 
-      @media (max-width :991px) {
-      color: rgb(125, 125, 133);
+        @media (max-width :991px) {
+       color: rgb(3, 3, 51);
       
       }
     }
    
   }
-  
-    .navbar-brand{
-      img{
-      padding-bottom: 20px;
-    }
-    }
-     
-  .who-are-we {
-    .button{
-     color: crimson;
-     margin-top: 50px;
-     padding: 5px 20px;
-     background-color: blue;
-    border-radius: 10px;
-   }
-   .paragraph{
-     background-color:  rgb(189, 189, 240, .5);
-     border: 2px solid black;
-     margin: 50px;
-     line-height: 4rem;
-     border-radius: 20px;
-     padding: 50px !important;
-     font-size: 36px;
-     transition: all 3s ease-in-out;
-     opacity: 1;
-   
-     :hover{
-      opacity: 0.5;
-      transform: scale(1.4);
-      border-radius: 50%;
+    
+    .who-are-we {
+        .button{
+        color: crimson;
+        margin-top: 50px;
+        padding: 5px 20px;
+        background-color: blue;
+        border-radius: 10px;
+     }
+      .paragraph{
+       background-color:  rgb(189, 189, 240, .5);
+       border: 2px solid black;
+       margin: 50px;
+       line-height: 4rem;
+       border-radius: 20px;
+       padding: 50px !important;
+       font-size: 36px;
+       transition: all 3s ease-in-out;
+       opacity: 1;
       
-    }
-    mark{
-      color: rgb(206, 13, 29);
-     background-color: rgb(189, 189, 240,)
+       :hover{
+         opacity: 0.5;
+         transform: scale(1.4);
+         border-radius: 50%;
+    
+       }
+       span{
+         color: rgb(206, 13, 29);
+         background-color: rgb(189, 189, 240,)
        
-    }
+        }
   
-    }
-    background-image: url(../images/lib/sh4.jpg);
+        }
+         background-image: url(../images/lib/sh4.jpg);
 
-   }
+      }
 
    section.new-box {
-    background-color: aqua;
-    
+     background-color: $main-color;
+
     h2{
      color: rgb(40, 20, 220) ;
-    font-size: 36px;
-    line-height: 8rem;
-    background-color: $card-text-color;
-
+     font-size: 36px;
+     line-height: 8rem;
+     background-color: rgb(189, 189, 236);
+     border-radius: 10px;
+     margin-top: 20px;
+     margin-right: 20px;
+     padding: 0 300px;
+     
+     @media (max-width :991px){
+       padding: 0 20px;
+     }
+    
+    }
+    .one{
+      border: 3px dotted black;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      padding: 10px;
+    }
+    .tow{
+      border: 3px dotted black;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      padding: 10px;
+    }
+     
    }
-
-  }
-
    
-
-  section.contacts{
+   section.contacts{
     padding-top: 20px !important;
-    h1{
+     h1{
       text-align: center;
      color: $main-button-color;
     }
   }
   
- section.contacts{
-   .form form button{
-   background-color: $main-button-color;
-   border: 0px;
-    border-radius: 10px;
-    color: #e7a5a5;
-   font-family: ar-font;
-    font-size: 15px;
-   line-height: 25px;
-   padding: 5px 25px !important;
-    margin-right: 15px;
-   }
- }  
-  
-  section.contacts{
-  .cmxform{
-    width: 90%;
-    margin: 0 auto 50px;
-    
-  }
- }
-
-    section.contacts{
-     background-color: #16aeca;
-     top: 0;
-     .map{
+   section.contacts{
+    background-color: #16aeca;
+    top: 0;
+    .form form button{
+    background-color: $main-button-color;
+    border: 0px;
+     border-radius: 10px;
+     color: #d40c30;
+    font-family: ar-font;
+     font-size: 15px;
+    line-height: 25px;
+    padding: 5px 25px !important;
+     margin-right: 15px;
+    }
+   .cmxform{
+      width: 90%;
+      margin: 0 auto 50px;
+      
+    }
+    .map{
       iframe{
       height: 270px;
       width: 85%;
@@ -146,12 +154,12 @@
       margin-top: 50px;
       border-radius: 10px;
 
-    
     }
-    
+
   }
-}
- 
+
+   }  
+  
   footer {
     .top-footer{
       background-color: #96c1e4;
@@ -168,48 +176,55 @@
     margin-left: 15px;
     height: 250px;
     width: 85%;
+    margin-bottom: 20px;
+
+   input{
+    border: 1px solid blue;
+    margin-right: 15px;
+    border-radius: 10px;
+   }
+    .submit{
+     border: blue 1px solid;
+
+     }
    
-   
-  }
+    }
   @media (max-width :991px){
     form.action{
       margin-right: 40px;
     }
-   }
-
-  form.action{
-    input{
-      border: 1px solid blue;
-      margin-right: 20px;
-      border-radius: 10px;
     }
+
+   .conta{
+    margin-right: 30px;
+    color:rgb(40, 20, 220); 
   }
  
-
   footer {
+    
     .top-footer{
+
       h3{
-     font-size: 18px;
-     font-weight: bold;
-    line-height: 45px;
-    color: #3c15e7;
-    margin-bottom: 30px;
-    position: relative;
-      }
+        font-size: 18px;
+        font-weight: bold;
+       line-height: 45px;
+       color: #1519e7;
+       margin-bottom: 30px;
+       position: relative;
+         }
     }
   }
- 
+
   footer{
     .top-footer{
       p{
     font-size: 15px;
     line-height: 22px;
-    color: #141111;
+    color: #1619c7;
     margin-bottom: 50px; 
       }
     }
   } 
-
 
   footer {
     .top-footer{
@@ -232,7 +247,6 @@
     }
   }
   
-  
   footer {
     .top-footer{
       ul.social{
@@ -243,8 +257,6 @@
     }
   } 
 
-
-  /* تغير لون الأيقونات عند المرور فوقها بمؤشر الفأرة */
   footer{
     .top-footer{
       ul.social{
@@ -259,8 +271,6 @@
     }
   } 
 
-
-  
   footer{
     .top-footer{
       ul.contact-us{
