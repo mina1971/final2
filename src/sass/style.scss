@@ -41,14 +41,11 @@
          text-decoration: none;
         font-size: 16px;
 
-        @media (max-width :991px) {
-       color: rgb(3, 3, 51);
+        
       
       }
     }
    
-  }
-    
     .who-are-we {
         .button{
         color: crimson;
@@ -75,13 +72,7 @@
          border-radius: 50%;
     
        }
-       @media (max-width :991px){
-         line-height: 2rem;
-         padding: 20px 10px;
-         margin: 10px;
-         font-size: 20px;
-
-       }
+     
        span{
          color: rgb(206, 13, 29);
          background-color: rgb(189, 189, 240,)
@@ -106,10 +97,6 @@
      margin-right: 20px;
      padding: 0 300px;
      
-     @media (max-width :991px){
-       padding: 0 20px;
-     }
-    
     }
     .one{
       border: 3px dotted black;
@@ -197,11 +184,7 @@
      }
    
     }
-  @media (max-width :991px){
-    form.action{
-      margin-right: 40px;
-    }
-    }
+ 
 
    .conta{
     margin-right: 30px;
@@ -338,6 +321,39 @@
   }
  
     
-   
+  @media (max-width :991px) {
+    
+       .navbar{
+         a {
+         border-bottom: none !important;
+         padding-right: 5px;
+         color: rgb(3, 3, 51);
+          }
+ 
+       }
+
+       .who-are-we{
+        .paragraph{
+          line-height: 2rem;
+          padding: 20px 10px;
+          margin: 10px;
+          font-size: 20px;
+        }
+      }
+
+      section.new-box{
+        h2{
+          padding: 0 20px;
+        }
+
+      }
+
+      form.action{
+        margin-right: 40px;
+      }
+ }
+
+
+ 
 
  

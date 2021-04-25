@@ -10367,12 +10367,6 @@ a.text-dark:focus, a.text-dark:hover {
   border: red dotted 3px;
   margin-top: 140px;
 }
-@media (max-width: 991px) {
-  .header1 .overlay img.stand {
-    display: none;
-    padding: 0;
-  }
-}
 .header1 .overlay img.trans {
   margin-top: 160px;
   transition: all 2s ease-in-out;
@@ -10511,6 +10505,12 @@ section.prices .plan .popular button:hover {
   color: #7233a2;
 }
 
+@media (max-width: 991px) {
+  .header1 .overlay img.stand {
+    display: none;
+    padding: 0;
+  }
+}
 .header2 {
   background-image: url(../images/sh6.jpg);
   background-position: center;
@@ -10526,12 +10526,6 @@ section.prices .plan .popular button:hover {
   margin-top: 120px;
   border: red dotted 3px;
 }
-@media (max-width: 991px) {
-  .header2 .overlay img.stand2 {
-    display: none;
-    padding: 0;
-  }
-}
 .header2 .overlay img.trans2 {
   margin-top: 160px;
   transition: all 2s ease-in-out;
@@ -10541,13 +10535,13 @@ section.prices .plan .popular button:hover {
   opacity: 1;
   transform: scale(1.4);
 }
+
 @media (max-width: 991px) {
-  .header2 .overlay img.trans2:hover {
-    opacity: 1;
-    transform: scale(1.4);
+  .header2 .overlay img.stand2 {
+    display: none;
+    padding: 0;
   }
 }
-
 @font-face {
   font-family: "cairoFont";
   src: url(../fonts/Cairo-Regular.ttf);
@@ -10584,11 +10578,6 @@ body {
   text-decoration: none;
   font-size: 16px;
 }
-@media (max-width: 991px) {
-  .navbar a {
-    color: #030333;
-  }
-}
 
 .who-are-we {
   background-image: url(../images/sh4.jpg);
@@ -10617,14 +10606,6 @@ body {
   transform: scale(1.4);
   border-radius: 50%;
 }
-@media (max-width: 991px) {
-  .who-are-we .paragraph {
-    line-height: 2rem;
-    padding: 20px 10px;
-    margin: 10px;
-    font-size: 20px;
-  }
-}
 .who-are-we .paragraph span {
   color: #ce0d1d;
   background-color: #bdbdf0;
@@ -10642,11 +10623,6 @@ section.new-box h2 {
   margin-top: 20px;
   margin-right: 20px;
   padding: 0 300px;
-}
-@media (max-width: 991px) {
-  section.new-box h2 {
-    padding: 0 20px;
-  }
 }
 section.new-box .one {
   border: 3px dotted black;
@@ -10721,11 +10697,6 @@ form.action .submit {
   border: blue 1px solid;
 }
 
-@media (max-width: 991px) {
-  form.action {
-    margin-right: 40px;
-  }
-}
 .conta {
   margin-right: 30px;
   color: #2814dc;
@@ -10795,4 +10766,27 @@ footer .copyright p {
   line-height: 78px;
   color: #919191;
   margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .navbar a {
+    border-bottom: none !important;
+    padding-right: 5px;
+    color: #030333;
+  }
+
+  .who-are-we .paragraph {
+    line-height: 2rem;
+    padding: 20px 10px;
+    margin: 10px;
+    font-size: 20px;
+  }
+
+  section.new-box h2 {
+    padding: 0 20px;
+  }
+
+  form.action {
+    margin-right: 40px;
+  }
 }

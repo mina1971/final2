@@ -19,11 +19,7 @@
             img.stand{
                border: red dotted 3px;
                margin-top: 140px;
-               @media (max-width :991px) {
-                display: none;
-                padding: 0;
-
-            }
+          
             }
             img.trans{
                 margin-top: 160px;
@@ -249,3 +245,14 @@
         }
     }
 
+ @media (max-width :991px){
+    .header1{
+        .overlay{
+         
+            img.stand{
+                display: none;
+                padding: 0;
+        }
+    }
+ }
+ }
