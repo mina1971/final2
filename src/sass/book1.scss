@@ -35,7 +35,22 @@
             }
         }
     }
+   section.carousel-one{
+   width:100% ;
+   height: 400px ;
+   background-color: #eeeeee;
 
+   .carousel-item{
+       background-color: rgb(82, 49, 7);
+      margin-bottom: 30px;
+   }
+   h3{
+    font-size: 36px;
+    color: #727;
+    line-height: 120px;
+   }
+
+}
     section.features{
         background-color: $custom-color;
         padding: 25px 0;

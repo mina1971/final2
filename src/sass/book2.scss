@@ -36,6 +36,21 @@
         }
    }
  }
+ section.carousel-tow{
+  width:100% ;
+  max-height: 400px;
+ background-color: #eeeeee;
+
+  .carousel-item{
+     background-color: rgb(10, 125, 170);
+  }
+  h3{
+    font-size: 36px;
+    color: #727;
+    line-height: 120px;
+  }
+
+}
 
  @media (max-width :991px){
   .header2{
