@@ -271,3 +271,14 @@
     }
  }
  }
+ @media (max-width :991px){
+    section.features{
+       .media{
+           img{
+               margin: 0 20px;
+               width: 50%;
+           }
+       }
+
+    }
+ }
