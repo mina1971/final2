@@ -9,16 +9,18 @@
     src: url(../fonts/Cairo-Regular.ttf);
  }
   body {
-   font-family:"cairoFont", 'Cambria,Cochin,Georgia,Times New Roman,Serif'!important;
-  
+    font-family:"cairoFont", 'Cambria,Cochin,Georgia,Times New Roman,Serif'!important;
+    
    }
    .navbar{
        position: fixed;
        top: 0;
        width: 100%;
-       height: 70px;
+       height: 60px;
        z-index: 3;
        background-color: #16aeca !important;
+      // justify-content: center;
+      
       .navbar-brand{
        padding-top: 10px;
        }
@@ -29,15 +31,17 @@
       }
         ul{
         float: left;
+       
+       
       }
        li{
         float: right;
         display: inline;
-        padding: 0  20px 0 20px;
-        margin: 10 auto;
+        padding: 10px  20px ;
+        margin: 10px 20px ;
      }
        a{
-         color: rgb(15, 9, 9);
+         color: rgb(26, 14, 14);
          text-decoration: none;
         font-size: 16px;
 
@@ -329,8 +333,20 @@
          padding-right: 5px;
          color: rgb(3, 3, 51);
           }
+          ul{
+            display: inline-block;
+
+     li{
+
+     a{
+     color: #d40c30;
+      }
+  }
+            
+  }
+         
  
-       }
+  }
 
        .who-are-we{
         .paragraph{

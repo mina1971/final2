@@ -4,7 +4,7 @@
         background-image: url(../images/lib/sh6.jpg);
         background-position: center;
         background-size: cover;
-
+       
     }
     .header1{
         .overlay{
@@ -18,16 +18,23 @@
          
             img.stand{
                border: red dotted 3px;
-               margin-top: 140px;
+               margin-top: 80px;
+               max-height: 400px;
+              
+               &:hover{
+                transform: scale(1.4);
+             
+               }
           
             }
             img.trans{
-                margin-top: 160px;
+                margin-top: 120px;
                 transition: all 2s ease-in-out;
                 opacity:.5;
-              
+                margin-right: 20px;
+
               &:hover{
-             opacity: 1;
+               opacity: 1;
                transform: scale(1.4);
             
               }
@@ -114,6 +121,7 @@
                     font-size:18px ;
                     line-height:32px ;
                     color:#555555;
+                    margin: 10px;
                     
                 }
             }
@@ -266,8 +274,14 @@
          
             img.stand{
                 display: none;
-                padding: 0;
+            
+               max-height: 50%;
+
         }
+        img.trans{
+            max-height: 50%;
+        }
+
     }
  }
  }
@@ -275,10 +289,13 @@
     section.features{
        .media{
            img{
-               margin: 0 20px;
+               margin: 0 ;
                width: 50%;
+              
            }
        }
 
     }
  }
+
+ 
