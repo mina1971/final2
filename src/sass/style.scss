@@ -369,7 +369,18 @@
       }
  }
 
-
+ @media(min-width :771px) {
+  section.new-box{
+    .one{
+      width: 90%;
+      height: 90%;
+    }
+    .tow{
+      width: 90%;
+      height: 90%;
+    }
+  }
+}
  
 
  
